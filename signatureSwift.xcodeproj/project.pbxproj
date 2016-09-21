@@ -14,6 +14,9 @@
 		7E2580D01D8F8BE100C1C751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E2580CE1D8F8BE100C1C751 /* LaunchScreen.storyboard */; };
 		7E2580DB1D8F8BE100C1C751 /* signatureSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2580DA1D8F8BE100C1C751 /* signatureSwiftTests.swift */; };
 		7E2580E61D8F8BE200C1C751 /* signatureSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2580E51D8F8BE200C1C751 /* signatureSwiftUITests.swift */; };
+		7E2580F41D8F8C2500C1C751 /* AFBrushBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2580F31D8F8C2500C1C751 /* AFBrushBoard.swift */; };
+		7E3F3D3B1D9125320032DE70 /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3F3D3A1D9125320032DE70 /* UIImage + Extension.swift */; };
+		7E3F3D3D1D913DBC0032DE70 /* signatureController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3F3D3C1D913DBB0032DE70 /* signatureController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		7E2580E11D8F8BE200C1C751 /* signatureSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = signatureSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E2580E51D8F8BE200C1C751 /* signatureSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signatureSwiftUITests.swift; sourceTree = "<group>"; };
 		7E2580E71D8F8BE200C1C751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E2580F31D8F8C2500C1C751 /* AFBrushBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFBrushBoard.swift; sourceTree = "<group>"; };
+		7E3F3D3A1D9125320032DE70 /* UIImage + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
+		7E3F3D3C1D913DBB0032DE70 /* signatureController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signatureController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		7E2580C41D8F8BE100C1C751 /* signatureSwift */ = {
 			isa = PBXGroup;
 			children = (
+				7E2580F31D8F8C2500C1C751 /* AFBrushBoard.swift */,
+				7E3F3D3A1D9125320032DE70 /* UIImage + Extension.swift */,
+				7E3F3D3C1D913DBB0032DE70 /* signatureController.swift */,
 				7E2580C51D8F8BE100C1C751 /* AppDelegate.swift */,
 				7E2580C71D8F8BE100C1C751 /* ViewController.swift */,
 				7E2580C91D8F8BE100C1C751 /* Main.storyboard */,
@@ -263,6 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E2580C81D8F8BE100C1C751 /* ViewController.swift in Sources */,
+				7E3F3D3B1D9125320032DE70 /* UIImage + Extension.swift in Sources */,
+				7E3F3D3D1D913DBC0032DE70 /* signatureController.swift in Sources */,
+				7E2580F41D8F8C2500C1C751 /* AFBrushBoard.swift in Sources */,
 				7E2580C61D8F8BE100C1C751 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -514,6 +526,7 @@
 				7E2580EC1D8F8BE200C1C751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E2580ED1D8F8BE200C1C751 /* Build configuration list for PBXNativeTarget "signatureSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +535,7 @@
 				7E2580EF1D8F8BE200C1C751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E2580F01D8F8BE200C1C751 /* Build configuration list for PBXNativeTarget "signatureSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +544,7 @@
 				7E2580F21D8F8BE200C1C751 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
